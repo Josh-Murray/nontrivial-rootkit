@@ -1,0 +1,1541 @@
+ INFO global: Vagrant version: 2.2.5
+ INFO global: Ruby version: 2.6.3
+ INFO global: RubyGems version: 3.0.3
+ INFO global: VAGRANT_EXECUTABLE="/usr/share/vagrant/gems/bin/vagrant"
+ INFO global: VAGRANT_INSTALLER_VERSION="2"
+ INFO global: VAGRANT_INSTALLER_ENV="1"
+ INFO global: VAGRANT_PREFERRED_PROVIDERS="libvirt,docker"
+ INFO global: VAGRANT_INSTALLER_EMBEDDED_DIR="/usr/share/vagrant"
+ INFO global: VAGRANT_DETECTED_OS="Linux"
+ INFO global: VAGRANT_CHECKPOINT_DISABLE="yes"
+ INFO global: VAGRANT_LOG="debug"
+ WARN global: resolv replacement has not been enabled!
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/kernel_v2/plugin.rb
+ INFO manager: Registered plugin: kernel
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/provisioners/cfengine/plugin.rb
+ INFO manager: Registered plugin: CFEngine Provisioner
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/provisioners/chef/plugin.rb
+ INFO manager: Registered plugin: chef
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/provisioners/salt/plugin.rb
+ INFO manager: Registered plugin: salt
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/provisioners/file/plugin.rb
+ INFO manager: Registered plugin: file
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/provisioners/ansible/plugin.rb
+ INFO manager: Registered plugin: ansible
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/provisioners/puppet/plugin.rb
+ INFO manager: Registered plugin: puppet
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/provisioners/docker/plugin.rb
+ INFO manager: Registered plugin: docker
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/provisioners/shell/plugin.rb
+ INFO manager: Registered plugin: shell
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/synced_folders/smb/plugin.rb
+ INFO manager: Registered plugin: SMB synced folders
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/synced_folders/nfs/plugin.rb
+ INFO manager: Registered plugin: NFS synced folders
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/synced_folders/rsync/plugin.rb
+ INFO manager: Registered plugin: RSync synced folders
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/communicators/ssh/plugin.rb
+ INFO manager: Registered plugin: ssh communicator
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/communicators/winrm/plugin.rb
+ INFO manager: Registered plugin: winrm communicator
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/communicators/winssh/plugin.rb
+ INFO manager: Registered plugin: windows ssh communicator
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/providers/hyperv/plugin.rb
+ INFO manager: Registered plugin: Hyper-V provider
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/providers/virtualbox/plugin.rb
+ INFO manager: Registered plugin: VirtualBox provider
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/providers/docker/plugin.rb
+ INFO manager: Registered plugin: docker-provider
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/atomic/plugin.rb
+ INFO manager: Registered plugin: Atomic Host guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/funtoo/plugin.rb
+ INFO manager: Registered plugin: Funtoo guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/pld/plugin.rb
+ INFO manager: Registered plugin: PLD Linux guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/suse/plugin.rb
+ INFO manager: Registered plugin: SUSE guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/kali/plugin.rb
+ INFO manager: Registered plugin: Kali guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/haiku/plugin.rb
+ INFO manager: Registered plugin: Haiku guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/amazon/plugin.rb
+ INFO manager: Registered plugin: Amazon Linux guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/nixos/plugin.rb
+ INFO manager: Registered plugin: NixOS guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/slackware/plugin.rb
+ INFO manager: Registered plugin: Slackware guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/solaris/plugin.rb
+ INFO manager: Registered plugin: Solaris guest.
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/esxi/plugin.rb
+ INFO manager: Registered plugin: ESXi guest.
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/tinycore/plugin.rb
+ INFO manager: Registered plugin: TinyCore Linux guest.
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/debian/plugin.rb
+ INFO manager: Registered plugin: Debian guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/trisquel/plugin.rb
+ INFO manager: Registered plugin: Trisquel guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/alt/plugin.rb
+ INFO manager: Registered plugin: ALT Platform guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/solaris11/plugin.rb
+ INFO manager: Registered plugin: Solaris 11 guest.
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/freebsd/plugin.rb
+ INFO manager: Registered plugin: FreeBSD guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/openbsd/plugin.rb
+ INFO manager: Registered plugin: OpenBSD guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/windows/plugin.rb
+ INFO manager: Registered plugin: Windows guest.
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/coreos/plugin.rb
+ INFO manager: Registered plugin: CoreOS guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/ubuntu/plugin.rb
+ INFO manager: Registered plugin: Ubuntu guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/photon/plugin.rb
+ INFO manager: Registered plugin: VMware Photon guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/mint/plugin.rb
+ INFO manager: Registered plugin: Mint guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/linux/plugin.rb
+ INFO manager: Registered plugin: Linux guest.
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/darwin/plugin.rb
+ INFO manager: Registered plugin: Darwin guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/redhat/plugin.rb
+ INFO manager: Registered plugin: Red Hat Enterprise Linux guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/arch/plugin.rb
+ INFO manager: Registered plugin: Arch guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/gentoo/plugin.rb
+ INFO manager: Registered plugin: Gentoo guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/bsd/plugin.rb
+ INFO manager: Registered plugin: BSD-based guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/netbsd/plugin.rb
+ INFO manager: Registered plugin: NetBSD guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/dragonflybsd/plugin.rb
+ INFO manager: Registered plugin: DragonFly BSD guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/fedora/plugin.rb
+ INFO manager: Registered plugin: Fedora guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/omnios/plugin.rb
+ INFO manager: Registered plugin: OmniOS guest.
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/elementary/plugin.rb
+ INFO manager: Registered plugin: Elementary guest
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/guests/smartos/plugin.rb
+ INFO manager: Registered plugin: SmartOS guest.
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/kernel_v1/plugin.rb
+ INFO manager: Registered plugin: kernel
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/pushes/ftp/plugin.rb
+ INFO manager: Registered plugin: ftp
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/pushes/atlas/plugin.rb
+ INFO manager: Registered plugin: atlas
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/pushes/local-exec/plugin.rb
+ INFO manager: Registered plugin: local-exec
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/pushes/noop/plugin.rb
+ INFO manager: Registered plugin: noop
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/pushes/heroku/plugin.rb
+ INFO manager: Registered plugin: heroku
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/box/plugin.rb
+ INFO manager: Registered plugin: box command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/push/plugin.rb
+ INFO manager: Registered plugin: push command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/suspend/plugin.rb
+ INFO manager: Registered plugin: suspend command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/upload/plugin.rb
+ INFO manager: Registered plugin: upload command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/rdp/plugin.rb
+ INFO manager: Registered plugin: rdp command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/provision/plugin.rb
+ INFO manager: Registered plugin: provision command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/status/plugin.rb
+ INFO manager: Registered plugin: status command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/port/plugin.rb
+ INFO manager: Registered plugin: port command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/destroy/plugin.rb
+ INFO manager: Registered plugin: destroy command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/winrm_config/plugin.rb
+ INFO manager: Registered plugin: winrm-config command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/package/plugin.rb
+ INFO manager: Registered plugin: package command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/ssh/plugin.rb
+ INFO manager: Registered plugin: ssh command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/cap/plugin.rb
+ INFO manager: Registered plugin: cap command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/list-commands/plugin.rb
+ INFO manager: Registered plugin: list-commands command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/winrm/plugin.rb
+ INFO manager: Registered plugin: winrm command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/reload/plugin.rb
+ INFO manager: Registered plugin: reload command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/validate/plugin.rb
+ INFO manager: Registered plugin: validate command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/login/plugin.rb
+ INFO manager: Registered plugin: vagrant-login
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/ssh_config/plugin.rb
+ INFO manager: Registered plugin: ssh-config command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/up/plugin.rb
+ INFO manager: Registered plugin: up command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/resume/plugin.rb
+ INFO manager: Registered plugin: resume command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/plugin/plugin.rb
+ INFO manager: Registered plugin: plugin command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/init/plugin.rb
+ INFO manager: Registered plugin: init command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/version/plugin.rb
+ INFO manager: Registered plugin: version command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/global-status/plugin.rb
+ INFO manager: Registered plugin: global-status command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/halt/plugin.rb
+ INFO manager: Registered plugin: halt command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/powershell/plugin.rb
+ INFO manager: Registered plugin: powershell command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/provider/plugin.rb
+ INFO manager: Registered plugin: provider command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/snapshot/plugin.rb
+ INFO manager: Registered plugin: snapshot command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/commands/help/plugin.rb
+ INFO manager: Registered plugin: help command
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/hosts/suse/plugin.rb
+ INFO manager: Registered plugin: SUSE host
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/hosts/slackware/plugin.rb
+ INFO manager: Registered plugin: Slackware host
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/hosts/void/plugin.rb
+ INFO manager: Registered plugin: Void host
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/hosts/alt/plugin.rb
+ INFO manager: Registered plugin: ALT Platform host
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/hosts/freebsd/plugin.rb
+ INFO manager: Registered plugin: FreeBSD host
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/hosts/windows/plugin.rb
+ INFO manager: Registered plugin: Windows host
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/hosts/null/plugin.rb
+ INFO manager: Registered plugin: null host
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/hosts/linux/plugin.rb
+ INFO manager: Registered plugin: Linux host
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/hosts/darwin/plugin.rb
+ INFO manager: Registered plugin: Mac OS X host
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/hosts/redhat/plugin.rb
+ INFO manager: Registered plugin: Red Hat Enterprise Linux host
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/hosts/arch/plugin.rb
+ INFO manager: Registered plugin: Arch host
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/hosts/gentoo/plugin.rb
+ INFO manager: Registered plugin: Gentoo host
+DEBUG global: Loading core plugin: /usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/hosts/bsd/plugin.rb
+ INFO manager: Registered plugin: BSD host
+ INFO vagrant: `vagrant` invoked: ["up", "--debug"]
+DEBUG vagrant: Creating Vagrant environment
+ INFO environment: Environment initialized (#<Vagrant::Environment:0x000056551a81f838>)
+ INFO environment:   - cwd: /home/gibble/malware-monday/nontrivial-rootkit
+ INFO environment: Home path: /home/gibble/.vagrant.d
+DEBUG environment: Effective local data path: /home/gibble/malware-monday/nontrivial-rootkit/.vagrant
+ INFO environment: Local data path: /home/gibble/malware-monday/nontrivial-rootkit/.vagrant
+DEBUG environment: Creating: /home/gibble/malware-monday/nontrivial-rootkit/.vagrant
+DEBUG manager: Enabling localized plugins
+ INFO manager: Plugins:
+DEBUG bundler: Current generated plugin dependency list: []
+DEBUG bundler: Generating new builtin set instance.
+DEBUG bundler: Generating new plugin set instance. Skip gems - []
+DEBUG bundler: Activating solution set: []
+ INFO manager: Loading plugins...
+DEBUG manager: Enabling globalized plugins
+ INFO manager: Plugins:
+ INFO manager:   - vagrant-libvirt = [installed: undefined constraint: > 0]
+DEBUG bundler: Current generated plugin dependency list: [<Gem::Dependency type=:runtime name="vagrant-libvirt" requirements="> 0">]
+DEBUG bundler: Generating new builtin set instance.
+DEBUG bundler: Generating new plugin set instance. Skip gems - []
+DEBUG bundler: Activating solution set: ["formatador-0.2.5", "excon-0.62.0", "mime-types-data-3.2016.0521", "mime-types-3.1", "builder-3.2.3", "fog-core-2.1.2", "nokogiri-1.10.4", "json-2.2.0", "ruby-libvirt-0.7.1", "fog-xml-0.1.3", "multi_json-1.13.1", "fog-json-1.2.0", "fog-libvirt-0.5.0", "vagrant-libvirt-0.0.45"]
+DEBUG bundler: Activating gem formatador-0.2.5
+DEBUG bundler: Activating gem excon-0.62.0
+DEBUG bundler: Activating gem builder-3.2.3
+DEBUG bundler: Activating gem fog-core-2.1.2
+DEBUG bundler: Activating gem nokogiri-1.10.4
+DEBUG bundler: Activating gem json-2.2.0
+DEBUG bundler: Activating gem ruby-libvirt-0.7.1
+DEBUG bundler: Activating gem fog-xml-0.1.3
+DEBUG bundler: Activating gem multi_json-1.13.1
+DEBUG bundler: Activating gem fog-json-1.2.0
+DEBUG bundler: Activating gem fog-libvirt-0.5.0
+DEBUG bundler: Activating gem vagrant-libvirt-0.0.45
+ INFO manager: Loading plugins...
+ INFO manager: Loading plugin `vagrant-libvirt` with default require: `vagrant-libvirt`
+ INFO manager: Registered plugin: libvirt
+DEBUG manager: Successfully loaded plugin `vagrant-libvirt`.
+ INFO loader: Set :root = ["#<Pathname:/home/gibble/malware-monday/nontrivial-rootkit/Vagrantfile>"]
+DEBUG loader: Populating proc cache for #<Pathname:/home/gibble/malware-monday/nontrivial-rootkit/Vagrantfile>
+DEBUG loader: Load procs for pathname: /home/gibble/malware-monday/nontrivial-rootkit/Vagrantfile
+ INFO loader: Loading configuration in order: [:home, :root]
+DEBUG loader: Loading from: root (evaluating)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO base: VBoxManage path: VBoxManage
+DEBUG environment: Initial usable provider list: [[5, :libvirt]]
+DEBUG environment: Priority sorted usable provider list: [:libvirt]
+DEBUG environment: Preferred provider list: [:libvirt, :docker]
+DEBUG environment: Using preferred provider `libvirt` found in usable list.
+ INFO base: VBoxManage path: VBoxManage
+DEBUG environment: Initial usable provider list: [[5, :libvirt]]
+DEBUG environment: Priority sorted usable provider list: [:libvirt]
+DEBUG environment: Preferred provider list: [:libvirt, :docker]
+DEBUG environment: Using preferred provider `libvirt` found in usable list.
+ INFO loader: Set "47461759187640_machine_default" = []
+ INFO loader: Loading configuration in order: [:home, :root, "47461759187640_machine_default"]
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO box_collection: Box found: generic/ubuntu1804 (libvirt)
+ INFO environment: Running hook: authenticate_box_url
+ INFO host: Autodetecting host type for [#<Vagrant::Environment: /home/gibble/malware-monday/nontrivial-rootkit>]
+DEBUG host: Trying: suse
+DEBUG host: Trying: slackware
+DEBUG host: Trying: void
+DEBUG host: Trying: alt
+DEBUG host: Trying: freebsd
+DEBUG host: Trying: darwin
+DEBUG host: Trying: redhat
+ INFO host: Detected: redhat!
+ INFO runner: Preparing hooks for middleware sequence...
+ INFO runner: 2 hooks defined.
+ INFO runner: Running action: authenticate_box_url #<Vagrant::Action::Builder:0x000056551a97d068>
+ INFO loader: Set :"47461756355960_generic/ubuntu1804_libvirt" = ["#<Pathname:/home/gibble/.vagrant.d/boxes/generic-VAGRANTSLASH-ubuntu1804/1.9.38/libvirt/Vagrantfile>"]
+DEBUG loader: Populating proc cache for #<Pathname:/home/gibble/.vagrant.d/boxes/generic-VAGRANTSLASH-ubuntu1804/1.9.38/libvirt/Vagrantfile>
+DEBUG loader: Load procs for pathname: /home/gibble/.vagrant.d/boxes/generic-VAGRANTSLASH-ubuntu1804/1.9.38/libvirt/Vagrantfile
+ INFO loader: Loading configuration in order: [:"47461756355960_generic/ubuntu1804_libvirt", :home, :root, "47461759187640_machine_default"]
+DEBUG loader: Loading from: 47461756355960_generic/ubuntu1804_libvirt (evaluating)
+DEBUG loader: Loading from: 47461756355960_generic/ubuntu1804_libvirt (evaluating)
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO loader: Set :"47461759187640_vm_default_generic/ubuntu1804_libvirt" = ["[\"2\", #<Proc:0x000056551a50fd50>]"]
+DEBUG loader: Populating proc cache for ["2", #<Proc:0x000056551a50fd50>]
+ INFO loader: Loading configuration in order: [:"47461756355960_generic/ubuntu1804_libvirt", :home, :root, "47461759187640_machine_default", :"47461759187640_vm_default_generic/ubuntu1804_libvirt"]
+DEBUG loader: Loading from: 47461756355960_generic/ubuntu1804_libvirt (cache)
+DEBUG loader: Loading from: 47461756355960_generic/ubuntu1804_libvirt (cache)
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Loading from: 47461759187640_vm_default_generic/ubuntu1804_libvirt (evaluating)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO environment: Running hook: environment_plugins_loaded
+ INFO runner: Preparing hooks for middleware sequence...
+ INFO runner: 2 hooks defined.
+ INFO runner: Running action: environment_plugins_loaded #<Vagrant::Action::Builder:0x000056551b008248>
+ INFO environment: Running hook: environment_load
+ INFO runner: Preparing hooks for middleware sequence...
+ INFO runner: 2 hooks defined.
+ INFO runner: Running action: environment_load #<Vagrant::Action::Builder:0x000056551b07e8a8>
+DEBUG checkpoint_client: checkpoint disabled via explicit user request
+ INFO cli: CLI: [] "up" []
+DEBUG cli: Invoking command class: VagrantPlugins::CommandUp::Command []
+DEBUG checkpoint_client: waiting for checkpoint to complete...
+DEBUG checkpoint_client: no information received from checkpoint
+DEBUG command: 'Up' each target VM...
+DEBUG command: Getting target VMs for command. Arguments:
+DEBUG command:  -- names: ["default"]
+DEBUG command:  -- options: {:provider=>nil}
+DEBUG command: Finding machine that match name: default
+ INFO command: Active machine found with name default. Using provider: libvirt
+ INFO environment: Getting machine: default (libvirt)
+ INFO environment: Uncached load of machine.
+ INFO loader: Set "47461759187640_machine_default" = []
+ INFO loader: Loading configuration in order: [:home, :root, "47461759187640_machine_default"]
+ERROR loader: Unknown config sources: [:"47461756355960_generic/ubuntu1804_libvirt", :"47461759187640_vm_default_generic/ubuntu1804_libvirt"]
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO box_collection: Box found: generic/ubuntu1804 (libvirt)
+ INFO environment: Running hook: authenticate_box_url
+ INFO runner: Preparing hooks for middleware sequence...
+ INFO runner: 2 hooks defined.
+ INFO runner: Running action: authenticate_box_url #<Vagrant::Action::Builder:0x000056551b39f028>
+ INFO loader: Set :"47461756355960_generic/ubuntu1804_libvirt" = ["#<Pathname:/home/gibble/.vagrant.d/boxes/generic-VAGRANTSLASH-ubuntu1804/1.9.38/libvirt/Vagrantfile>"]
+ INFO loader: Loading configuration in order: [:"47461756355960_generic/ubuntu1804_libvirt", :home, :root, "47461759187640_machine_default"]
+ERROR loader: Unknown config sources: [:"47461759187640_vm_default_generic/ubuntu1804_libvirt"]
+DEBUG loader: Loading from: 47461756355960_generic/ubuntu1804_libvirt (cache)
+DEBUG loader: Loading from: 47461756355960_generic/ubuntu1804_libvirt (cache)
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO loader: Set :"47461759187640_vm_default_generic/ubuntu1804_libvirt" = ["[\"2\", #<Proc:0x000056551a50fd50>]"]
+ INFO loader: Loading configuration in order: [:"47461756355960_generic/ubuntu1804_libvirt", :home, :root, "47461759187640_machine_default", :"47461759187640_vm_default_generic/ubuntu1804_libvirt"]
+DEBUG loader: Loading from: 47461756355960_generic/ubuntu1804_libvirt (cache)
+DEBUG loader: Loading from: 47461756355960_generic/ubuntu1804_libvirt (cache)
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Loading from: 47461759187640_vm_default_generic/ubuntu1804_libvirt (cache)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO machine: Initializing machine: default
+ INFO machine:   - Provider: VagrantPlugins::ProviderLibvirt::Provider
+ INFO machine:   - Box: #<Vagrant::Box:0x000056551b3d6cf8>
+ INFO machine:   - Data dir: /home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt
+ INFO driver: Connecting to Libvirt (qemu:///session?no_verify=1&keyfile=/home/gibble/.ssh/id_rsa) ...
+ INFO interface: Machine: metadata ["provider", :libvirt, {:target=>:default}]
+ INFO command: With machine: default (#<VagrantPlugins::ProviderLibvirt::Provider:0x000056551a4d71a8 @machine=#<Vagrant::Machine: default (VagrantPlugins::ProviderLibvirt::Provider)>, @cap_logger=#<Log4r::Logger:0x000056551a4d5f88 @fullname="vagrant::capability_host::vagrantplugins::providerlibvirt::provider", @outputters=[], @additive=true, @name="provider", @path="vagrant::capability_host::vagrantplugins::providerlibvirt", @parent=#<VagrantLogger:0x0000565519fa14e0 @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x0000565519feaf78 @mon_mutex=#<Thread::Mutex:0x0000565519feaf00>, @mon_mutex_owner_object_id=47461754165180, @mon_owner=nil, @mon_count=0, @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x000056551a526f28 @formatter=#<Log4r::BasicFormatter:0x0000565519ff1008 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x0000565519fa13c8 @level=0, @outputters=[]>, @level=1, @trace=false>, @level=1, @trace=false>, @cap_host_chain=[[:libvirt, #<#<Class:0x000056551a4d6ff0>:0x000056551a582b70>]], @cap_args=[#<Vagrant::Machine: default (VagrantPlugins::ProviderLibvirt::Provider)>], @cap_caps={:hyperv=>#<Vagrant::Registry:0x000056551a4d6c58 @items={:public_address=>#<Proc:0x000056551a979990@/usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/providers/hyperv/plugin.rb:25>, :snapshot_list=>#<Proc:0x000056551a9798f0@/usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/providers/hyperv/plugin.rb:30>}, @results_cache={}>, :virtualbox=>#<Vagrant::Registry:0x000056551a4d6a28 @items={:forwarded_ports=>#<Proc:0x000056551a240f48@/usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/providers/virtualbox/plugin.rb:27>, :nic_mac_addresses=>#<Proc:0x000056551a240e08@/usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/providers/virtualbox/plugin.rb:32>, :public_address=>#<Proc:0x000056551a240cc8@/usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/providers/virtualbox/plugin.rb:37>, :snapshot_list=>#<Proc:0x000056551a240ca0@/usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/providers/virtualbox/plugin.rb:42>}, @results_cache={}>, :docker=>#<Vagrant::Registry:0x000056551a4d67f8 @items={:public_address=>#<Proc:0x000056551a281480@/usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/providers/docker/plugin.rb:60>, :proxy_machine=>#<Proc:0x000056551a281048@/usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/providers/docker/plugin.rb:65>}, @results_cache={}>, :libvirt=>#<Vagrant::Registry:0x000056551a4d6398 @items={:nic_mac_addresses=>#<Proc:0x000056551a8b1f30@/usr/share/vagrant/gems/gems/vagrant-libvirt-0.0.45/lib/vagrant-libvirt/plugin.rb:37>}, @results_cache={}>}, @driver=#<VagrantPlugins::ProviderLibvirt::Driver:0x000056551b4dfcf8 @logger=#<Log4r::Logger:0x000056551b4dfca8 @fullname="vagrant_libvirt::driver", @outputters=[], @additive=true, @name="driver", @path="vagrant_libvirt", @parent=#<Log4r::Logger:0x000056551a8b1878 @fullname="vagrant_libvirt", @outputters=[#<Log4r::StderrOutputter:0x0000565519feaf78 @mon_mutex=#<Thread::Mutex:0x0000565519feaf00>, @mon_mutex_owner_object_id=47461754165180, @mon_owner=nil, @mon_count=0, @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x000056551a526f28 @formatter=#<Log4r::BasicFormatter:0x0000565519ff1008 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant_libvirt", @path="", @parent=#<Log4r::RootLogger:0x0000565519fa13c8 @level=0, @outputters=[]>, @level=1, @trace=false>, @level=1, @trace=false>, @machine=#<Vagrant::Machine: default (VagrantPlugins::ProviderLibvirt::Provider)>>>)
+DEBUG command: Getting target VMs for command. Arguments:
+DEBUG command:  -- names: ["default"]
+DEBUG command:  -- options: {:provider=>nil}
+DEBUG command: Finding machine that match name: default
+ INFO command: Active machine found with name default. Using provider: libvirt
+ INFO environment: Getting machine: default (libvirt)
+ INFO environment: Returning cached machine: default (libvirt)
+ INFO command: With machine: default (#<VagrantPlugins::ProviderLibvirt::Provider:0x000056551a4d71a8 @machine=#<Vagrant::Machine: default (VagrantPlugins::ProviderLibvirt::Provider)>, @cap_logger=#<Log4r::Logger:0x000056551a4d5f88 @fullname="vagrant::capability_host::vagrantplugins::providerlibvirt::provider", @outputters=[], @additive=true, @name="provider", @path="vagrant::capability_host::vagrantplugins::providerlibvirt", @parent=#<VagrantLogger:0x0000565519fa14e0 @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x0000565519feaf78 @mon_mutex=#<Thread::Mutex:0x0000565519feaf00>, @mon_mutex_owner_object_id=47461754165180, @mon_owner=nil, @mon_count=0, @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x000056551a526f28 @formatter=#<Log4r::BasicFormatter:0x0000565519ff1008 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x0000565519fa13c8 @level=0, @outputters=[]>, @level=1, @trace=false>, @level=1, @trace=false>, @cap_host_chain=[[:libvirt, #<#<Class:0x000056551a4d6ff0>:0x000056551a582b70>]], @cap_args=[#<Vagrant::Machine: default (VagrantPlugins::ProviderLibvirt::Provider)>], @cap_caps={:hyperv=>#<Vagrant::Registry:0x000056551a4d6c58 @items={:public_address=>#<Proc:0x000056551a979990@/usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/providers/hyperv/plugin.rb:25>, :snapshot_list=>#<Proc:0x000056551a9798f0@/usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/providers/hyperv/plugin.rb:30>}, @results_cache={}>, :virtualbox=>#<Vagrant::Registry:0x000056551a4d6a28 @items={:forwarded_ports=>#<Proc:0x000056551a240f48@/usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/providers/virtualbox/plugin.rb:27>, :nic_mac_addresses=>#<Proc:0x000056551a240e08@/usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/providers/virtualbox/plugin.rb:32>, :public_address=>#<Proc:0x000056551a240cc8@/usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/providers/virtualbox/plugin.rb:37>, :snapshot_list=>#<Proc:0x000056551a240ca0@/usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/providers/virtualbox/plugin.rb:42>}, @results_cache={}>, :docker=>#<Vagrant::Registry:0x000056551a4d67f8 @items={:public_address=>#<Proc:0x000056551a281480@/usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/providers/docker/plugin.rb:60>, :proxy_machine=>#<Proc:0x000056551a281048@/usr/share/vagrant/gems/gems/vagrant-2.2.5/plugins/providers/docker/plugin.rb:65>}, @results_cache={}>, :libvirt=>#<Vagrant::Registry:0x000056551a4d6398 @items={:nic_mac_addresses=>#<Proc:0x000056551a8b1f30@/usr/share/vagrant/gems/gems/vagrant-libvirt-0.0.45/lib/vagrant-libvirt/plugin.rb:37>}, @results_cache={}>}, @driver=#<VagrantPlugins::ProviderLibvirt::Driver:0x000056551b4dfcf8 @logger=#<Log4r::Logger:0x000056551b4dfca8 @fullname="vagrant_libvirt::driver", @outputters=[], @additive=true, @name="driver", @path="vagrant_libvirt", @parent=#<Log4r::Logger:0x000056551a8b1878 @fullname="vagrant_libvirt", @outputters=[#<Log4r::StderrOutputter:0x0000565519feaf78 @mon_mutex=#<Thread::Mutex:0x0000565519feaf00>, @mon_mutex_owner_object_id=47461754165180, @mon_owner=nil, @mon_count=0, @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x000056551a526f28 @formatter=#<Log4r::BasicFormatter:0x0000565519ff1008 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant_libvirt", @path="", @parent=#<Log4r::RootLogger:0x0000565519fa13c8 @level=0, @outputters=[]>, @level=1, @trace=false>, @level=1, @trace=false>, @machine=#<Vagrant::Machine: default (VagrantPlugins::ProviderLibvirt::Provider)>>>)
+ INFO interface: info: Bringing machine 'default' up with 'libvirt' provider...
+Bringing machine 'default' up with 'libvirt' provider...
+ INFO batch_action: Enabling parallelization by default.
+ INFO batch_action: Disabling parallelization because only executing one action
+ INFO batch_action: Batch action will parallelize: false
+ INFO batch_action: Starting action: #<Vagrant::Machine:0x000056551b4f0d28> up {:destroy_on_error=>true, :install_provider=>false, :parallel=>true, :provision_ignore_sentinel=>false, :provision_types=>nil}
+ INFO machine: Calling action: up on provider Libvirt (d1b6d217-49da-4869-9d62-b5d1f5ed629e)
+DEBUG environment: Attempting to acquire process-lock: machine-action-af6315fb97a2db749bea53a49ecdbe2e
+DEBUG environment: Attempting to acquire process-lock: dotlock
+ INFO environment: Acquired process lock: dotlock
+ INFO environment: Released process lock: dotlock
+ INFO environment: Acquired process lock: machine-action-af6315fb97a2db749bea53a49ecdbe2e
+ INFO interface: Machine: action ["up", "start", {:target=>:default}]
+ INFO runner: Preparing hooks for middleware sequence...
+ INFO runner: 3 hooks defined.
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Builder:0x000056551aac2a68>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::BeforeTriggerAction:0x000056551aafc600>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::ConfigValidate:0x000056551aafc5d8>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::AfterTriggerAction:0x000056551aafc5b0>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::BeforeTriggerAction:0x000056551aafc538>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::BoxCheckOutdated:0x000056551aafc510>
+ INFO interface: output: Checking if box 'generic/ubuntu1804' version '1.9.38' is up to date...
+ INFO interface: output: ==> default: Checking if box 'generic/ubuntu1804' version '1.9.38' is up to date...
+==> default: Checking if box 'generic/ubuntu1804' version '1.9.38' is up to date...
+ INFO box: box update check is under the interval threshold
+ INFO box: Skipping box update check
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::AfterTriggerAction:0x000056551b007398>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::BeforeTriggerAction:0x000056551b007320>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::Call:0x000056551b0072f8>
+ INFO runner: Preparing hooks for middleware sequence...
+ INFO runner: 3 hooks defined.
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Builder:0x000056551b0ceb50>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::BeforeTriggerAction:0x000056551b0df658>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::IsCreated:0x000056551b0df630>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::AfterTriggerAction:0x000056551b0df608>
+ INFO warden: Calling OUT action: #<Vagrant::Action::Builtin::AfterTriggerAction:0x000056551b0df608>
+ INFO warden: Calling OUT action: #<VagrantPlugins::ProviderLibvirt::Action::IsCreated:0x000056551b0df630>
+ INFO warden: Calling OUT action: #<Vagrant::Action::Builtin::BeforeTriggerAction:0x000056551b0df658>
+ INFO runner: Preparing hooks for middleware sequence...
+ INFO runner: 3 hooks defined.
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Warden:0x000056551b187ab0>
+ INFO warden: Calling IN action: #<Proc:0x000056551b1c4b90@/usr/share/vagrant/gems/gems/vagrant-2.2.5/lib/vagrant/action/warden.rb:120 (lambda)>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::BeforeTriggerAction:0x000056551b1879c0>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::ConfigValidate:0x000056551b187998>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::AfterTriggerAction:0x000056551b187970>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::BeforeTriggerAction:0x000056551b1878f8>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::Call:0x000056551b1878d0>
+ INFO runner: Preparing hooks for middleware sequence...
+ INFO runner: 3 hooks defined.
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Builder:0x000056551b24a100>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::BeforeTriggerAction:0x000056551b25a140>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::IsRunning:0x000056551b25a118>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::AfterTriggerAction:0x000056551b25a0f0>
+ INFO warden: Calling OUT action: #<Vagrant::Action::Builtin::AfterTriggerAction:0x000056551b25a0f0>
+ INFO warden: Calling OUT action: #<VagrantPlugins::ProviderLibvirt::Action::IsRunning:0x000056551b25a118>
+ INFO warden: Calling OUT action: #<Vagrant::Action::Builtin::BeforeTriggerAction:0x000056551b25a140>
+ INFO runner: Preparing hooks for middleware sequence...
+ INFO runner: 3 hooks defined.
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Warden:0x000056551b2ba5b8>
+ INFO warden: Calling IN action: #<Proc:0x000056551b32b8d0@/usr/share/vagrant/gems/gems/vagrant-2.2.5/lib/vagrant/action/warden.rb:120 (lambda)>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::BeforeTriggerAction:0x000056551b2ba4f0>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::Call:0x000056551b2ba4c8>
+ INFO runner: Preparing hooks for middleware sequence...
+ INFO runner: 3 hooks defined.
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Builder:0x000056551b3a2228>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::BeforeTriggerAction:0x000056551b3acd90>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::IsSuspended:0x000056551b3acd68>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::AfterTriggerAction:0x000056551b3acd40>
+ INFO warden: Calling OUT action: #<Vagrant::Action::Builtin::AfterTriggerAction:0x000056551b3acd40>
+ INFO warden: Calling OUT action: #<VagrantPlugins::ProviderLibvirt::Action::IsSuspended:0x000056551b3acd68>
+ INFO warden: Calling OUT action: #<Vagrant::Action::Builtin::BeforeTriggerAction:0x000056551b3acd90>
+ INFO runner: Preparing hooks for middleware sequence...
+ INFO runner: 3 hooks defined.
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Warden:0x000056551aacfa60>
+ INFO warden: Calling IN action: #<Proc:0x000056551b34c850@/usr/share/vagrant/gems/gems/vagrant-2.2.5/lib/vagrant/action/warden.rb:120 (lambda)>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::BeforeTriggerAction:0x000056551aacf948>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::Provision:0x000056551aacf920>
+ INFO provision: Checking provisioner sentinel file...
+ INFO provision: Sentinel found! Not provisioning.
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::AfterTriggerAction:0x000056551ab54c60>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::BeforeTriggerAction:0x000056551ab54a30>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::CreateNetworks:0x000056551ab545f8>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::AfterTriggerAction:0x000056551b011870>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::BeforeTriggerAction:0x000056551b0117d0>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::SetBootOrder:0x000056551b011780>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::AfterTriggerAction:0x000056551b055e30>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::BeforeTriggerAction:0x000056551b055db8>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::PrepareNFSValidIds:0x000056551b055d90>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::AfterTriggerAction:0x000056551b09e6a8>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::BeforeTriggerAction:0x000056551b09e5e0>
+ INFO warden: Calling IN action: #<VagrantPlugins::SyncedFolderNFS::ActionCleanup:0x000056551b09e5b8>
+DEBUG host: Searching for cap: nfs_prune
+DEBUG host: Checking in: redhat
+DEBUG host: Checking in: linux
+DEBUG host: Found cap: nfs_prune in linux
+ INFO nfs: NFS pruning. Valid IDs: ["982448df-bd83-440f-916f-76b6ab9f704e", "d1b6d217-49da-4869-9d62-b5d1f5ed629e"]
+DEBUG host: Searching for cap: nfs_prune
+DEBUG host: Checking in: redhat
+DEBUG host: Checking in: linux
+DEBUG host: Found cap: nfs_prune in linux
+ INFO host: Execute capability: nfs_prune [#<Vagrant::Environment: /home/gibble/malware-monday/nontrivial-rootkit>, #<Vagrant::UI::Prefixed:0x000056551b5422b8 @logger=#<Log4r::Logger:0x000056551b542268 @fullname="vagrant::ui::interface", @outputters=[], @additive=true, @name="interface", @path="vagrant::ui", @parent=#<VagrantLogger:0x0000565519fa14e0 @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x0000565519feaf78 @mon_mutex=#<Thread::Mutex:0x0000565519feaf00>, @mon_mutex_owner_object_id=47461754165180, @mon_owner=nil, @mon_count=0, @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x000056551a526f28 @formatter=#<Log4r::BasicFormatter:0x0000565519ff1008 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x0000565519fa13c8 @level=0, @outputters=[]>, @level=1, @trace=false>, @level=1, @trace=false>, @opts={}, @stdin=#<IO:<STDIN>>, @stdout=#<IO:<STDOUT>>, @stderr=#<IO:<STDERR>>, @prefix=:default, @ui=#<Vagrant::UI::Basic:0x000056551a81f5b8 @logger=#<Log4r::Logger:0x000056551a81f568 @fullname="vagrant::ui::interface", @outputters=[], @additive=true, @name="interface", @path="vagrant::ui", @parent=#<VagrantLogger:0x0000565519fa14e0 @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x0000565519feaf78 @mon_mutex=#<Thread::Mutex:0x0000565519feaf00>, @mon_mutex_owner_object_id=47461754165180, @mon_owner=nil, @mon_count=0, @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x000056551a526f28 @formatter=#<Log4r::BasicFormatter:0x0000565519ff1008 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x0000565519fa13c8 @level=0, @outputters=[]>, @level=1, @trace=false>, @level=1, @trace=false>, @opts={:color=>:default}, @stdin=#<IO:<STDIN>>, @stdout=#<IO:<STDOUT>>, @stderr=#<IO:<STDERR>>, @lock=#<Thread::Mutex:0x000056551a84b348>>>, ["982448df-bd83-440f-916f-76b6ab9f704e", "d1b6d217-49da-4869-9d62-b5d1f5ed629e"]] (redhat)
+ INFO linux: Pruning invalid NFS entries...
+DEBUG linux: Known valid NFS export IDs: ["982448df-bd83-440f-916f-76b6ab9f704e", "d1b6d217-49da-4869-9d62-b5d1f5ed629e"]
+DEBUG linux: Composite valid NFS export IDs with user: ["1000 982448df-bd83-440f-916f-76b6ab9f704e", "1000 d1b6d217-49da-4869-9d62-b5d1f5ed629e"]
+DEBUG linux: NFS export IDs to be removed: []
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::AfterTriggerAction:0x000056551b0e8730>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::BeforeTriggerAction:0x000056551b0e86b8>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::SyncedFolderCleanup:0x000056551b0e8690>
+ INFO synced_folder_cleanup: Invoking synced folder cleanup for: rsync
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::AfterTriggerAction:0x000056551b140f20>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::BeforeTriggerAction:0x000056551b140ea8>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::SyncedFolders:0x000056551b140e58>
+ INFO synced_folders: SyncedFolders loading from cache: false
+ INFO synced_folders: Synced Folder Implementation: rsync
+ INFO synced_folders:   - /vagrant: ./ => /vagrant
+ INFO synced_folders: Invoking synced folder prepare for: rsync
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::AfterTriggerAction:0x000056551b184568>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::BeforeTriggerAction:0x000056551b1844f0>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::StartDomain:0x000056551b1844c8>
+ INFO interface: info: Starting domain.
+ INFO interface: info: ==> default: Starting domain.
+==> default: Starting domain.
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::AfterTriggerAction:0x000056551b1ceb40>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::BeforeTriggerAction:0x000056551b1ceac8>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::WaitTillUp:0x000056551b1ceaa0>
+DEBUG wait_till_up: Searching for IP for MAC address: 52:54:00:e6:d3:62
+ INFO interface: info: Waiting for domain to get an IP address...
+ INFO interface: info: ==> default: Waiting for domain to get an IP address...
+==> default: Waiting for domain to get an IP address...
+ INFO wait_till_up: Got IP address 192.168.122.159
+ INFO wait_till_up: Time for getting IP: 0.018898725509643555
+ INFO interface: info: Waiting for SSH to become available...
+ INFO interface: info: ==> default: Waiting for SSH to become available...
+==> default: Waiting for SSH to become available...
+DEBUG ssh: Checking whether SSH is ready...
+DEBUG ssh: Checking key permissions: /home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b001a60 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b0019e8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b001998 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b001b50>, @mon_mutex=#<Thread::Mutex:0x000056551b001858>, @mon_mutex_owner_object_id=47461762600140, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:51:10.655502 #24267] DEBUG -- net.ssh.transport.session[2b2a8d80360c]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b0487a8 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b048708 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b048668 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b0487f8>, @mon_mutex=#<Thread::Mutex:0x000056551b048618>, @mon_mutex_owner_object_id=47461762745140, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:51:13.753423 #24267] DEBUG -- net.ssh.transport.session[2b2a8d82ac70]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b0a9418 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b0a93c8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b0a9378 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b0a9468>, @mon_mutex=#<Thread::Mutex:0x000056551b0a9300>, @mon_mutex_owner_object_id=47461762943420, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:51:16.830753 #24267] DEBUG -- net.ssh.transport.session[2b2a8d85b870]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b11f780 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b11f708 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b11f6b8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b11f7f8>, @mon_mutex=#<Thread::Mutex:0x000056551b11f640>, @mon_mutex_owner_object_id=47461763185500, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:51:19.902379 #24267] DEBUG -- net.ssh.transport.session[2b2a8d88e70c]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b184658 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b1845b8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b184450 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b1846a8>, @mon_mutex=#<Thread::Mutex:0x000056551b1843b0>, @mon_mutex_owner_object_id=47461763392040, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:51:22.975076 #24267] DEBUG -- net.ssh.transport.session[2b2a8d8cadb0]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not up: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking whether SSH is ready...
+DEBUG ssh: Checking key permissions: /home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b1f1258 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b1f1208 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b1f11b8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b1f12a8>, @mon_mutex=#<Thread::Mutex:0x000056551b1f1168>, @mon_mutex_owner_object_id=47461763614940, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:51:28.083686 #24267] DEBUG -- net.ssh.transport.session[2b2a8d8ff18c]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b273dc0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b273d20 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b273ca8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b273e10>, @mon_mutex=#<Thread::Mutex:0x000056551b273c58>, @mon_mutex_owner_object_id=47461763882580, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:51:29.118921 #24267] DEBUG -- net.ssh.transport.session[2b2a8d938928]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b2d6830 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b2d67e0 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b2d6790 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b2d68a8>, @mon_mutex=#<Thread::Mutex:0x000056551b2d6740>, @mon_mutex_owner_object_id=47461764084680, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:51:32.189740 #24267] DEBUG -- net.ssh.transport.session[2b2a8d96a130]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b36f648 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b36f5f8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b36f5a8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b36f698>, @mon_mutex=#<Thread::Mutex:0x000056551b36f558>, @mon_mutex_owner_object_id=47461764397780, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:51:35.261863 #24267] DEBUG -- net.ssh.transport.session[2b2a8d9bf6f8]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b3e2d50 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b3e2d00 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b3e2cb0 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b3e2da0>, @mon_mutex=#<Thread::Mutex:0x000056551b3e2c60>, @mon_mutex_owner_object_id=47461764634200, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:51:38.333942 #24267] DEBUG -- net.ssh.transport.session[2b2a8d9f6c84]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not up: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking whether SSH is ready...
+DEBUG ssh: Checking key permissions: /home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b49c1d8 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b49c188 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b49c138 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b49c6d8>, @mon_mutex=#<Thread::Mutex:0x000056551b49c0e8>, @mon_mutex_owner_object_id=47461765013660, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:51:43.444476 #24267] DEBUG -- net.ssh.transport.session[2b2a8da543fc]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b525820 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b532de0 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b533ec0 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b524010>, @mon_mutex=#<Thread::Mutex:0x000056551b533e48>, @mon_mutex_owner_object_id=47461765324640, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:51:44.478894 #24267] DEBUG -- net.ssh.transport.session[2b2a8daa1300]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551a5b9eb8 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551a5b9da0 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551a5b9b48 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551a5b9f30>, @mon_mutex=#<Thread::Mutex:0x000056551a5b9968>, @mon_mutex_owner_object_id=47461757210020, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:51:47.576689 #24267] DEBUG -- net.ssh.transport.session[2b2a8d3ecfb4]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551a935b78 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551a935a88 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551a9359c0 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551a935c40>, @mon_mutex=#<Thread::Mutex:0x000056551a935920>, @mon_mutex_owner_object_id=47461759036640, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:51:50.622940 #24267] DEBUG -- net.ssh.transport.session[2b2a8d4c8398]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b0066a0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b006628 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b0065d8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b0067b8>, @mon_mutex=#<Thread::Mutex:0x000056551b006588>, @mon_mutex_owner_object_id=47461762609900, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:51:53.693791 #24267] DEBUG -- net.ssh.transport.session[2b2a8d8022ac]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not up: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking whether SSH is ready...
+DEBUG ssh: Checking key permissions: /home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b0ce718 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b0ce6a0 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b0ce650 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b0ce768>, @mon_mutex=#<Thread::Mutex:0x000056551b0ce600>, @mon_mutex_owner_object_id=47461763019560, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:51:58.783761 #24267] DEBUG -- net.ssh.transport.session[2b2a8d875db0]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b1afa60 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b1afa10 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b1af9c0 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b1afab0>, @mon_mutex=#<Thread::Mutex:0x000056551b1af970>, @mon_mutex_owner_object_id=47461763480800, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:51:59.838277 #24267] DEBUG -- net.ssh.transport.session[2b2a8d8d6804]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b27dca8 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b27dc30 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b27dbb8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b27dcf8>, @mon_mutex=#<Thread::Mutex:0x000056551b27db68>, @mon_mutex_owner_object_id=47461763902940, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:52:02.910443 #24267] DEBUG -- net.ssh.transport.session[2b2a8d94d9cc]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b385e48 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b385d58 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b385c68 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b385ec0>, @mon_mutex=#<Thread::Mutex:0x000056551b385b50>, @mon_mutex_owner_object_id=47461764443700, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:52:05.977719 #24267] DEBUG -- net.ssh.transport.session[2b2a8d9cf0a8]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b4aac38 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b4aab98 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b4aaad0 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b4aac88>, @mon_mutex=#<Thread::Mutex:0x000056551b4aaa58>, @mon_mutex_owner_object_id=47461765043560, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:52:09.053327 #24267] DEBUG -- net.ssh.transport.session[2b2a8da62c68]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not up: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking whether SSH is ready...
+DEBUG ssh: Checking key permissions: /home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551a5684f0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551a5683d8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551a568310 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551a5685b8>, @mon_mutex=#<Thread::Mutex:0x000056551a5681f8>, @mon_mutex_owner_object_id=47461757043080, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:52:14.172190 #24267] DEBUG -- net.ssh.transport.session[2b2a8d28eb90]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551a8f23a0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551a8f2350 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551a8f2288 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551a8f2558>, @mon_mutex=#<Thread::Mutex:0x000056551a8f2238>, @mon_mutex_owner_object_id=47461758898500, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:52:15.200915 #24267] DEBUG -- net.ssh.transport.session[2b2a8d4f8e30]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551ab136c0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551ab135f8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551ab13580 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551ab13738>, @mon_mutex=#<Thread::Mutex:0x000056551ab133c8>, @mon_mutex_owner_object_id=47461760015040, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:52:18.279931 #24267] DEBUG -- net.ssh.transport.session[2b2a8d5b3c6c]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b08f838 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b08f7e8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b08f798 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b08f888>, @mon_mutex=#<Thread::Mutex:0x000056551b08f720>, @mon_mutex_owner_object_id=47461762890700, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:52:21.346125 #24267] DEBUG -- net.ssh.transport.session[2b2a8d8467a4]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b159cf0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b1598b8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b159868 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b159d68>, @mon_mutex=#<Thread::Mutex:0x000056551b159818>, @mon_mutex_owner_object_id=47461763304500, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:52:24.422986 #24267] DEBUG -- net.ssh.transport.session[2b2a8d8a3788]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not up: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking whether SSH is ready...
+DEBUG ssh: Checking key permissions: /home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b227678 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b227600 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b227588 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b2276f0>, @mon_mutex=#<Thread::Mutex:0x000056551b2274c0>, @mon_mutex_owner_object_id=47461763726020, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:52:29.534390 #24267] DEBUG -- net.ssh.transport.session[2b2a8d9125d4]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b2ef420 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b2ef380 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b2ef2b8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b2ef4e8>, @mon_mutex=#<Thread::Mutex:0x000056551b2ef218>, @mon_mutex_owner_object_id=47461764135260, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:52:30.563815 #24267] DEBUG -- net.ssh.transport.session[2b2a8d9b09c8]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b41e9b8 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b41e918 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b41e850 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b41ea58>, @mon_mutex=#<Thread::Mutex:0x000056551b41e7b0>, @mon_mutex_owner_object_id=47461764756520, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:52:33.630694 #24267] DEBUG -- net.ssh.transport.session[2b2a8da41d38]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x0000565519a52430 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x0000565519a52188 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x0000565519a51c10 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x0000565519a524a8>, @mon_mutex=#<Thread::Mutex:0x0000565519a51378>, @mon_mutex_owner_object_id=47461751229960, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:52:36.714151 #24267] DEBUG -- net.ssh.transport.session[2b2a8ce8740c]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551a4583f8 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551a4633c0 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551a463280 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551a458600>, @mon_mutex=#<Thread::Mutex:0x000056551a4630a0>, @mon_mutex_owner_object_id=47461756508480, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:52:39.773776 #24267] DEBUG -- net.ssh.transport.session[2b2a8d2409f4]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not up: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking whether SSH is ready...
+DEBUG ssh: Checking key permissions: /home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551a7f8120 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551a7f80a8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551a7f8058 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551a7f81e8>, @mon_mutex=#<Thread::Mutex:0x000056551a7f9598>, @mon_mutex_owner_object_id=47461758386220, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:52:44.884443 #24267] DEBUG -- net.ssh.transport.session[2b2a8d40bc48]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551a8c4a40 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551a8c4978 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551a8c4928 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551a8c4ab8>, @mon_mutex=#<Thread::Mutex:0x000056551a8c4810>, @mon_mutex_owner_object_id=47461758805140, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:52:45.918691 #24267] DEBUG -- net.ssh.transport.session[2b2a8d46bd50]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551a9504f0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551a950478 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551a950400 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551a950540>, @mon_mutex=#<Thread::Mutex:0x000056551a9503b0>, @mon_mutex_owner_object_id=47461759091200, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:52:48.986517 #24267] DEBUG -- net.ssh.transport.session[2b2a8d4be9c4]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551aacf830 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551aacf790 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551aacf718 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551aacf880>, @mon_mutex=#<Thread::Mutex:0x000056551aacf588>, @mon_mutex_owner_object_id=47461759875980, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:52:52.061682 #24267] DEBUG -- net.ssh.transport.session[2b2a8d5613e0]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551ab5c1e0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551ab5c168 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551ab5c0c8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551ab5c258>, @mon_mutex=#<Thread::Mutex:0x000056551ab5c050>, @mon_mutex_owner_object_id=47461760163940, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:52:55.134518 #24267] DEBUG -- net.ssh.transport.session[2b2a8d5b2434]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not up: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking whether SSH is ready...
+DEBUG ssh: Checking key permissions: /home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b04b868 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b04b818 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b04b7a0 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b04b908>, @mon_mutex=#<Thread::Mutex:0x000056551b04b728>, @mon_mutex_owner_object_id=47461762751440, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:53:00.243430 #24267] DEBUG -- net.ssh.transport.session[2b2a8d82444c]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b0abcb8 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b0abc68 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b0abc18 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b0abd08>, @mon_mutex=#<Thread::Mutex:0x000056551b0abba0>, @mon_mutex_owner_object_id=47461762948620, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:53:01.274999 #24267] DEBUG -- net.ssh.transport.session[2b2a8d854cf0]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b10e340 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b10e2c8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b10e278 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b10e408>, @mon_mutex=#<Thread::Mutex:0x000056551b10e200>, @mon_mutex_owner_object_id=47461763150140, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:53:04.351880 #24267] DEBUG -- net.ssh.transport.session[2b2a8d88fb5c]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b186f70 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b186f20 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b186e80 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b186fc0>, @mon_mutex=#<Thread::Mutex:0x000056551b186e30>, @mon_mutex_owner_object_id=47461763397440, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:53:07.422436 #24267] DEBUG -- net.ssh.transport.session[2b2a8d8ca928]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b1dc948 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b1dc8f8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b1dc8a8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b1dc998>, @mon_mutex=#<Thread::Mutex:0x000056551b1dc858>, @mon_mutex_owner_object_id=47461763572820, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:53:10.494274 #24267] DEBUG -- net.ssh.transport.session[2b2a8d8f3350]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not up: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking whether SSH is ready...
+DEBUG ssh: Checking key permissions: /home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b266cd8 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b266c88 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b266c38 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b266d28>, @mon_mutex=#<Thread::Mutex:0x000056551b266be8>, @mon_mutex_owner_object_id=47461763855900, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:53:15.603630 #24267] DEBUG -- net.ssh.transport.session[2b2a8d939f58]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b2c5008 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b2c4fb8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b2c4f68 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b2c5080>, @mon_mutex=#<Thread::Mutex:0x000056551b2c4f18>, @mon_mutex_owner_object_id=47461764048820, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:53:16.633462 #24267] DEBUG -- net.ssh.transport.session[2b2a8d96b42c]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b360d50 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b360d00 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b360cb0 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b360da0>, @mon_mutex=#<Thread::Mutex:0x000056551b360c60>, @mon_mutex_owner_object_id=47461764367960, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:53:19.710107 #24267] DEBUG -- net.ssh.transport.session[2b2a8d9b7548]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b3d62d0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b3d6280 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b3d6230 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b3d6320>, @mon_mutex=#<Thread::Mutex:0x000056551b3d61e0>, @mon_mutex_owner_object_id=47461764608280, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:53:22.781341 #24267] DEBUG -- net.ssh.transport.session[2b2a8d9f1b94]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b476708 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b476690 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b476618 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b476758>, @mon_mutex=#<Thread::Mutex:0x000056551b4765c8>, @mon_mutex_owner_object_id=47461764936460, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:53:25.853527 #24267] DEBUG -- net.ssh.transport.session[2b2a8da418c4]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not up: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking whether SSH is ready...
+DEBUG ssh: Checking key permissions: /home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b519228 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b5191d8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b519160 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b519278>, @mon_mutex=#<Thread::Mutex:0x000056551b519110>, @mon_mutex_owner_object_id=47461765269680, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:53:30.969126 #24267] DEBUG -- net.ssh.transport.session[2b2a8da936d8]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551a2e94e0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551a2e9260 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551a2e8f40 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551a2e9760>, @mon_mutex=#<Thread::Mutex:0x000056551a2e8ba8>, @mon_mutex_owner_object_id=47461755733920, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:53:32.026325 #24267] DEBUG -- net.ssh.transport.session[2b2a8d19b954]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551a56b420 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551a56b2e0 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551a56af20 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551a56b560>, @mon_mutex=#<Thread::Mutex:0x000056551a56acc8>, @mon_mutex_owner_object_id=47461757048720, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:53:35.070781 #24267] DEBUG -- net.ssh.transport.session[2b2a8d2d43c0]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551a8513b0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551a851338 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551a8512e8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551a851400>, @mon_mutex=#<Thread::Mutex:0x000056551a851298>, @mon_mutex_owner_object_id=47461758568820, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:53:38.142808 #24267] DEBUG -- net.ssh.transport.session[2b2a8d42c330]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551a932630 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551a932540 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551a9324a0 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551a932928>, @mon_mutex=#<Thread::Mutex:0x000056551a932450>, @mon_mutex_owner_object_id=47461759029840, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:53:41.214592 #24267] DEBUG -- net.ssh.transport.session[2b2a8d4b5eb4]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not up: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking whether SSH is ready...
+DEBUG ssh: Checking key permissions: /home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551aa85870 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551aa85820 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551aa857d0 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551aa858e8>, @mon_mutex=#<Thread::Mutex:0x000056551aa85780>, @mon_mutex_owner_object_id=47461759724520, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:53:46.321464 #24267] DEBUG -- net.ssh.transport.session[2b2a8d54b824]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551ab03928 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551ab038d8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551ab03888 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551ab03978>, @mon_mutex=#<Thread::Mutex:0x000056551ab037e8>, @mon_mutex_owner_object_id=47461759982660, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:53:47.356892 #24267] DEBUG -- net.ssh.transport.session[2b2a8d58d954]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b011f00 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b011e10 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b011cf8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b011ff0>, @mon_mutex=#<Thread::Mutex:0x000056551b011c80>, @mon_mutex_owner_object_id=47461762633340, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:53:50.430287 #24267] DEBUG -- net.ssh.transport.session[2b2a8d80b780]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b071bd0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b071b80 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b071b30 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b071c20>, @mon_mutex=#<Thread::Mutex:0x000056551b071a90>, @mon_mutex_owner_object_id=47461762829720, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:53:53.501934 #24267] DEBUG -- net.ssh.transport.session[2b2a8d83f918]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b0c0190 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b0c0140 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b0c00f0 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b0c0230>, @mon_mutex=#<Thread::Mutex:0x000056551b0c0078>, @mon_mutex_owner_object_id=47461762990200, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:53:56.574716 #24267] DEBUG -- net.ssh.transport.session[2b2a8d866d9c]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not up: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking whether SSH is ready...
+DEBUG ssh: Checking key permissions: /home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b14d720 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b14d6d0 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b14d680 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b14d770>, @mon_mutex=#<Thread::Mutex:0x000056551b14d630>, @mon_mutex_owner_object_id=47461763279680, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:54:01.684481 #24267] DEBUG -- net.ssh.transport.session[2b2a8d8ada1c]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b1ad2b0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b1ad238 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b1ad1c0 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b1ad350>, @mon_mutex=#<Thread::Mutex:0x000056551b1ad148>, @mon_mutex_owner_object_id=47461763475680, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:54:02.717792 #24267] DEBUG -- net.ssh.transport.session[2b2a8d8daff8]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b227f38 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b227ee8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b227e48 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b227f88>, @mon_mutex=#<Thread::Mutex:0x000056551b227dd0>, @mon_mutex_owner_object_id=47461763727140, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:54:05.790913 #24267] DEBUG -- net.ssh.transport.session[2b2a8d912a98]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b28c1b8 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b28c140 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b28c0f0 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b28c208>, @mon_mutex=#<Thread::Mutex:0x000056551b28c078>, @mon_mutex_owner_object_id=47461763932280, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:54:08.857489 #24267] DEBUG -- net.ssh.transport.session[2b2a8d94c8c4]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b311c28 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b311bd8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b311b88 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b311ca0>, @mon_mutex=#<Thread::Mutex:0x000056551b311b38>, @mon_mutex_owner_object_id=47461764206020, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:54:11.934834 #24267] DEBUG -- net.ssh.transport.session[2b2a8d995fb0]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not up: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking whether SSH is ready...
+DEBUG ssh: Checking key permissions: /home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b3a27f0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b3a27a0 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b3a2700 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b3a2840>, @mon_mutex=#<Thread::Mutex:0x000056551b3a2660>, @mon_mutex_owner_object_id=47461764502400, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:54:17.044318 #24267] DEBUG -- net.ssh.transport.session[2b2a8d9d6f88]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b437148 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b4370a8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b436f68 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b4371e8>, @mon_mutex=#<Thread::Mutex:0x000056551b436ef0>, @mon_mutex_owner_object_id=47461764806580, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:54:18.079317 #24267] DEBUG -- net.ssh.transport.session[2b2a8da2348c]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b4d2aa8 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b4d2a30 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b4d29b8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b4d2b70>, @mon_mutex=#<Thread::Mutex:0x000056551b4d2940>, @mon_mutex_owner_object_id=47461765125340, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:54:21.150220 #24267] DEBUG -- net.ssh.transport.session[2b2a8da6ef2c]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x0000565519a54a50 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x0000565519a54168 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x0000565519a63a28 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x0000565519a54f50>, @mon_mutex=#<Thread::Mutex:0x0000565519a630a0>, @mon_mutex_owner_object_id=47461751266580, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:54:24.246263 #24267] DEBUG -- net.ssh.transport.session[2b2a8cfe630c]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551a462358 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551a4622b8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551a4621f0 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551a4625b0>, @mon_mutex=#<Thread::Mutex:0x000056551a461ea8>, @mon_mutex_owner_object_id=47461756506360, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:54:27.293477 #24267] DEBUG -- net.ssh.transport.session[2b2a8d245e2c]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not up: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking whether SSH is ready...
+DEBUG ssh: Checking key permissions: /home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551a803a20 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551a803890 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551a8037c8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551a803ae8>, @mon_mutex=#<Thread::Mutex:0x000056551a803728>, @mon_mutex_owner_object_id=47461758409700, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:54:32.388541 #24267] DEBUG -- net.ssh.transport.session[2b2a8d40b2e8]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551a8cfbc0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551a8cfaf8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551a8cfaa8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551a8cfcb0>, @mon_mutex=#<Thread::Mutex:0x000056551a8cfa58>, @mon_mutex_owner_object_id=47461758827860, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:54:33.436277 #24267] DEBUG -- net.ssh.transport.session[2b2a8d46ba44]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551a95dc18 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551a95f900 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551a95ff18 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551a95d740>, @mon_mutex=#<Thread::Mutex:0x000056551a95fdd8>, @mon_mutex_owner_object_id=47461759123340, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:54:36.513370 #24267] DEBUG -- net.ssh.transport.session[2b2a8d4be604]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551aacf218 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551aacf178 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551aacf0d8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551aacf2b8>, @mon_mutex=#<Thread::Mutex:0x000056551aacf060>, @mon_mutex_owner_object_id=47461759875180, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:54:39.582730 #24267] DEBUG -- net.ssh.transport.session[2b2a8d561110]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551ab67cc0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551ab67c20 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551ab67bd0 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551ab67d10>, @mon_mutex=#<Thread::Mutex:0x000056551ab67b58>, @mon_mutex_owner_object_id=47461760187880, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:54:42.654775 #24267] DEBUG -- net.ssh.transport.session[2b2a8d5b227c]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not up: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking whether SSH is ready...
+DEBUG ssh: Checking key permissions: /home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b04b4d0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b04b480 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b04b430 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b04b548>, @mon_mutex=#<Thread::Mutex:0x000056551b04b390>, @mon_mutex_owner_object_id=47461762751000, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:54:47.760126 #24267] DEBUG -- net.ssh.transport.session[2b2a8d8241a4]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b0ab920 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b0ab8d0 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b0ab858 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b0ab970>, @mon_mutex=#<Thread::Mutex:0x000056551b0ab7b8>, @mon_mutex_owner_object_id=47461762948140, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:54:48.798095 #24267] DEBUG -- net.ssh.transport.session[2b2a8d854b4c]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b10e188 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b10e0c0 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b10deb8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b10e1d8>, @mon_mutex=#<Thread::Mutex:0x000056551b10de68>, @mon_mutex_owner_object_id=47461763149660, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:54:51.865490 #24267] DEBUG -- net.ssh.transport.session[2b2a8d88faa8]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b186bd8 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b186b88 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b186b38 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b186c28>, @mon_mutex=#<Thread::Mutex:0x000056551b186ac0>, @mon_mutex_owner_object_id=47461763397020, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:54:54.942311 #24267] DEBUG -- net.ssh.transport.session[2b2a8d8cbdb4]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b1dc600 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b1dc5b0 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b1dc560 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b1dc650>, @mon_mutex=#<Thread::Mutex:0x000056551b1dc510>, @mon_mutex_owner_object_id=47461763572400, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:54:58.014218 #24267] DEBUG -- net.ssh.transport.session[2b2a8d8f31e8]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not up: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking whether SSH is ready...
+DEBUG ssh: Checking key permissions: /home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b266d28 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b266cd8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b266c88 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b266d78>, @mon_mutex=#<Thread::Mutex:0x000056551b266c38>, @mon_mutex_owner_object_id=47461763855940, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:55:03.123949 #24267] DEBUG -- net.ssh.transport.session[2b2a8d939f80]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b2c5080 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b2c5008 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b2c4fb8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b2c5120>, @mon_mutex=#<Thread::Mutex:0x000056551b2c4f68>, @mon_mutex_owner_object_id=47461764048860, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:55:04.158164 #24267] DEBUG -- net.ssh.transport.session[2b2a8d96b468]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b360f30 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b360ee0 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b360e40 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b360f80>, @mon_mutex=#<Thread::Mutex:0x000056551b360df0>, @mon_mutex_owner_object_id=47461764368160, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+ INFO interface: warn: Waiting for cleanup before exiting...
+ INFO interface: warn: ==> default: Waiting for cleanup before exiting...
+==> default: Waiting for cleanup before exiting...
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:55:07.235333 #24267] DEBUG -- net.ssh.transport.session[2b2a8d9b75d4]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO retryable: Retryable exception raised: #<Errno::EHOSTUNREACH: No route to host - connect(2) for 192.168.122.159:22>
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.122.159
+ INFO ssh:   - Port: 22
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>22, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :encryption=>["aes256-ctr", "aes192-ctr", "aes128-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "rijndael-cbc@lysator.liu.se", "blowfish-ctr", "blowfish-cbc", "cast128-ctr", "cast128-cbc", "3des-ctr", "3des-cbc", "idea-cbc", "arcfour256", "arcfour128", "arcfour", "none"], :logger=>#<Logger:0x000056551b3d4228 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000056551b3d41d8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x000056551b3d4188 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x000056551b3d4278>, @mon_mutex=#<Thread::Mutex:0x000056551b3d4138>, @mon_mutex_owner_object_id=47461764604100, @mon_owner=nil, @mon_count=0>>, :keys=>["/home/gibble/malware-monday/nontrivial-rootkit/.vagrant/machines/default/libvirt/private_key"], :remote_user=>"vagrant"}
+ INFO interface: error: Exiting immediately, without cleanup!
+ INFO interface: error: ==> default: Exiting immediately, without cleanup!
+==> default: Exiting immediately, without cleanup!
+ INFO environment: Running hook: environment_unload
+ INFO runner: Preparing hooks for middleware sequence...
+ INFO runner: 2 hooks defined.
+ INFO runner: Running action: environment_unload #<Vagrant::Action::Builder:0x000056551b3eead8>
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2019-11-04T13:55:10.302324 #24267] DEBUG -- net.ssh.transport.session[2b2a8d9f0b40]: establishing connection to 192.168.122.159:22
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO environment: Released process lock: machine-action-af6315fb97a2db749bea53a49ecdbe2e
